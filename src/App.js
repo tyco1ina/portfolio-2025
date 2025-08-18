@@ -11,9 +11,8 @@ function App() {
       <div className="intro-section">
         <div className="intro-section-half" id="intro-section-left">
           <h1>Tiberius Colina</h1>
-          <p>Incoming SDE Intern @ Amazon<br/> Computer Science @ Georgia Tech</p>
+          <p>Computer Science @ Georgia Tech</p>
           <div class="btn-group" role="group" aria-label="ConnectButtons">
-            <button type="button" class="btn btn-secondary">Resume</button>
             <button type="button" class="btn btn-secondary" onClick={() => window.open('https://www.linkedin.com/in/tcolina/', '_blank')}>LinkedIn</button>
           </div>
         </div>
@@ -31,6 +30,15 @@ function App() {
             <h6 class="card-subtitle mb-2 text-body-secondary">Teaching Assistant</h6>
             <p class="card-text">Creating and managing 40+ in-class quizzes covering database design and SQL used by the 600+ students of the course.</p>
             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-TA">Read More</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Amazon</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">SDE Intern</h6>
+            <p class="card-text">Worked with AWS and React.js as a Software Development Engineer Intern in Amazon S3.<br/><br/></p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-amazon">Read More</button>
           </div>
         </div>
         
@@ -66,7 +74,7 @@ function App() {
       {getModal("capitalOne")}
       {getModal("dbnostix")}
       {getModal("portfolio")}
-      {console.log(getModal("TA"))}
+      {getModal("amazon")}
 
 
     </div>

@@ -23,9 +23,9 @@ const getModal = (modal) => {
                             As a new TA, I had several responsibilities in the role. Standard procedure for all TAs include grading, attending 
                             lecture, attending a weekly TA meeting, and holding two office hours per week to provide personalized, one-on-one 
                             help to students. Each one of us had additional responsibilities to improve the course in various ways. I created 
-                            explaining concepts important for completing the class project, including creating EERD diagrams, and writing SQL
-                            functions and stored procedures. Near the end of the semester, I was put in charge of managing the quizzes given
-                            in class to assess understanding of course content, a role I will fully step into next semester.
+                            videos explaining concepts important for completing the class project, including videos covering creation of EERD diagrams and development of SQL
+                            functions and stored procedures. As a continuing TA for the fall 2025 semester, I am in charge of managing the quizzes given
+                            in class to assess understanding of course content.
     
                         </p>
                     </div>
@@ -97,6 +97,28 @@ const getModal = (modal) => {
                         <p>
                             This is the 2025 remake of my portfolio website. I decided to launch another version of it to both refresh my frontend skills
                             and have a chance to deploy a website using Vercel. The UI is made with React and Bootstrap.
+                        </p>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        )
+    } else if (modal === "amazon") {
+        return (
+            <div class="modal fade" id="modal-amazon">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Amazon</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            My entry for this experience will be added soon.
                         </p>
 
                     </div>
